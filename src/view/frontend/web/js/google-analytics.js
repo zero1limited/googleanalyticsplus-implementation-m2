@@ -14,6 +14,7 @@ define([
      * @param {Object} config
      */
     return function (config) {
+        window.zero1_ga_config = config;
         var allowServices = false,
             allowedCookies,
             allowedWebsites;
